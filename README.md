@@ -7,7 +7,7 @@ Khái niệm: Car management là phần mềm quản lý xe ô tô thông qua c�
 
 # Công nghệ sử dụng để viết API
 
-- Tiêu Chuẩn API: RESTful API
+- Tiêu chuẩn API: RESTful API
 - Ngôn ngữ sử dụng: Java
 - Framework: Spring Boot
 - Cơ sở dữ liệu: MySQL
@@ -57,9 +57,8 @@ Khái niệm: Car management là phần mềm quản lý xe ô tô thông qua c�
 ```sh
       http://localhost:777/api/v1/cars/delete/{id}
 ````
-
-- Result:
-  
+  - Result:
+    
       <img src=https://res.cloudinary.com/dufk6qhfc/image/upload/v1695805739/Screenshot_2023-09-27_at_16.08.37_yscjba.png width="80%" height="80%" border="1">
 
 ##  4. API cho phép thay đổi thông tin ô tô bằng id
@@ -81,9 +80,10 @@ Khái niệm: Car management là phần mềm quản lý xe ô tô thông qua c�
         "y": 200
       }
 ````
-- Result:
-  
+  - Result:
+    
       <img src=https://res.cloudinary.com/dufk6qhfc/image/upload/v1695806092/Screenshot_2023-09-27_at_16.14.04_lsmgsn.png width="80%" height="80%" border="1">
+
 
 ##  5. API cho phép nhập vào tọa độ x:y, và số lượng xe cần tìm n. Tìm n xe gần tọa độ x:y nhất và trả về ra danh sách xe ô tô (id, licensePlate, distance) với thứ tự từ gần đến xa
 - Mô tả: Sau khi người dùng gọi API kèm theo các thông tin về toạ độ x:y và số lượng xe cần tìm n trong body data. Hệ thống sẽ tiến hành kiểm tra và trả về danh sách ô tô theo yêu cầu theo các bước sau:
@@ -109,8 +109,8 @@ Khái niệm: Car management là phần mềm quản lý xe ô tô thông qua c�
         "n": 2
       }
 ````
-- Result:
-  
+  - Result:
+    
       <img src=https://res.cloudinary.com/dufk6qhfc/image/upload/v1695806299/Screenshot_2023-09-27_at_16.18.08_whhzye.png width="80%" height="80%" border="1">
 
 
