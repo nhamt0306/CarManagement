@@ -4,6 +4,6 @@ import com.example.testcarmanagement.entity.Car;
 import lombok.Data;
 
 @Data
-public class ResponseListCar extends Car {
+public class ResponseCar extends Car {
     private Double distance;
 }
